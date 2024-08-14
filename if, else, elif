@@ -1,0 +1,10 @@
+first = int (input ( 'Напишите число 1: '))
+second = int (input ( 'Напишите число 8: '))
+third = int (input ('Напишите число 12: '))
+if first == 1 and second == 8 and third == 12:
+print('3 Good')
+elif first == 1 and second == 8:
+print('2 Good')
+
+else:
+print(" 0 Попробуйте ещё раз")
